@@ -19,7 +19,7 @@ import webpackConfig from './webpack.config.js'
  */
 
 const paths = {
-    rootDir: '',
+    rootDir: 'C:/Users/anli/Documents/GitHub/oic-rpg-markup/markup-master',
     serverDir: 'localhost'
 };
 
