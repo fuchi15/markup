@@ -1,18 +1,6 @@
-//footer
-.footer{
-  width: 100vw;
-  height: 57px;
-  background: url("../assets/images/footer.png") no-repeat center center;
-  background-size: cover;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 9999;
-}
-
 //main
 .main{
-  position: relative;   
+  position: relative;
 }
 
 .background{
@@ -64,17 +52,18 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background-color: black; 
+  background-color: black;
 }
 
 .entry-header{
   background: gray;
   padding: 15px;
+  height: 10%;
 }
 
 .entry-body{
   padding: 15px;
-  height: 100%;
+  height: 90%;
 }
 
 .form{
@@ -92,19 +81,34 @@
 }
 
 .btn{
-  margin-right: auto;  
   width: 110px;
   height: 30px;
   border-radius: 3px;
 }
 
 .btn-wrap{
-  width: 110px;
+  width: 100%;
   margin-top: auto;
-  margin-left: auto;
+  display: flex;
+
+}
+
+.wrap-left{
+    justify-content: flex-end;
+}
+
+.wrap-center{
+    justify-content: center;
+}
+
+.wrap-while{
+    justify-content: space-between;
+}
+
+.radio-name{
+    color:white;
 }
 
 * {
   box-sizing: border-box;
 }
-

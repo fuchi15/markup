@@ -125,10 +125,6 @@ img {
 Layout
 --------------------------------------------------------- */
 
-/* ---------------------------------------------------------
-Object
---------------------------------------------------------- */
-
 .header {
 	width: 100vw;
 	height: 50px;
@@ -169,6 +165,10 @@ Object
 	left: 0;
 	z-index: 9999;
 }
+
+/* ---------------------------------------------------------
+Object
+--------------------------------------------------------- */
 
 .main {
 	position: relative;
@@ -234,11 +234,12 @@ Object
 .entry-header {
 	background: gray;
 	padding: 15px;
+	height: 10%;
 }
 
 .entry-body {
 	padding: 15px;
-	height: 100%;
+	height: 90%;
 }
 
 .form {
@@ -263,16 +264,43 @@ Object
 }
 
 .btn {
-	margin-right: auto;
 	width: 110px;
 	height: 30px;
 	border-radius: 3px;
 }
 
 .btn-wrap {
-	width: 110px;
+	width: 100%;
 	margin-top: auto;
-	margin-left: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.wrap-left {
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+.wrap-center {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.wrap-while {
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.radio-name {
+	color: white;
 }
 
 * {
