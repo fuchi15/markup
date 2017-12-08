@@ -2,3 +2,4 @@
 /node_modules/
 /cssmin/
 gulpfile.babel.js
+package-lock.json
