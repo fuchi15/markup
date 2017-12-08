@@ -1,20 +1,26 @@
-//header
+// header
 .header{
-    margin: 0;
-    padding: 10px 0;
-    width: 375px;
-    height: 50px;
-    background: linear-gradient(#663C06,#080808);
+  width: 100vw;
+  height: 50px;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
 }
+
 .header-title{
-    margin: 0 auto;
-    width: 50%;
-    height: 30px;
-    padding: 5px;    
-    background: linear-gradient(#C4C4C4 ,#9D9898);
-    border-radius: 8px;
-    border-style: solid;
-    font-weight: bold;
-    font-size: 21px;
-    text-align: center;
+  text-align: center;
+  font-weight: bold;
 }
+
+.header-inner{
+  margin: 0 auto;
+  width: 210px;
+  padding: 9px 0;
+  background-color: gray;
+}
+
+
