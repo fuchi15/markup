@@ -1,0 +1,23 @@
+.footer{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(#808080 ,#000000);
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    z-index: 4;
+}
+
+.button-area{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    background-image: url(../assets/images/footerbutton.png);
+    background-repeat: no-repeat;
+    top: -20px;
+    left: -20px;
+    z-index: 5;
+}
+
+
+
