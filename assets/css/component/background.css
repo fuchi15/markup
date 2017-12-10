@@ -1,36 +1,45 @@
-.background .layer-map {
-	background-image: url(../assets/images/back.jpeg);
+.background {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.map {
+	background: url(../assets/images/back.jpeg) no-repeat center center;
 	background-size: cover;
-	background-repeat: no-repeat;
 }
 
-.background .layer-chara {
-	background-image: url(../assets/images/back.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+.chara {
+	background: url(../assets/images/back.png) no-repeat center center;
+	background-size: 150%;
+	left: 40px;
 }
 
-.background .layer-filter {
-	background-color: rgba(75, 45, 7, 0.6);
+.opasity {
+	background-color: black;
+	opacity: .7;
 }
 
-.background .layer {
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 577px;
+.layer {
 	position: absolute;
+	width: 100vw;
+	height: 100vh;
 }
 
-.background .layer-z1 {
+.layer1 {
 	z-index: 0;
 }
 
-.background .layer-z2 {
+.layer2 {
 	z-index: 1;
 }
 
-.background .layer-z3 {
+.layer3 {
 	z-index: 2;
+}
+
+.layer4 {
+	z-index: 3;
 }
 

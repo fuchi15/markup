@@ -15,7 +15,15 @@ Layout
 @import "layout/_footer.scss";
 
 /* ---------------------------------------------------------
+Component
+--------------------------------------------------------- */
+@import "component/_background.scss";
+@import "component/_button.scss";
+@import "component/_flexbox.scss";
+@import "component/_form.scss";
+@import "component/_input.scss";
+
+/* ---------------------------------------------------------
 Object
 --------------------------------------------------------- */
-
 @import "page/_entry.scss";

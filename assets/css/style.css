@@ -167,18 +167,30 @@ Layout
 }
 
 /* ---------------------------------------------------------
-Object
+Component
 --------------------------------------------------------- */
-
-.main {
-	position: relative;
-}
 
 .background {
 	position: relative;
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
+}
+
+.map {
+	background: url(../assets/images/back.jpeg) no-repeat center center;
+	background-size: cover;
+}
+
+.chara {
+	background: url(../assets/images/back.png) no-repeat center center;
+	background-size: 150%;
+	left: 40px;
+}
+
+.opasity {
+	background-color: black;
+	opacity: .7;
 }
 
 .layer {
@@ -203,43 +215,69 @@ Object
 	z-index: 3;
 }
 
-.map {
-	background: url(../assets/images/back.jpeg) no-repeat center center;
-	background-size: cover;
+.btn {
+	width: 110px;
+	height: 30px;
+	border-radius: 3px;
 }
 
-.chara {
-	background: url(../assets/images/back.png) no-repeat center center;
-	background-size: 150%;
-	left: 40px;
+.btn-wrap {
+	height: 100%;
+	width: 100%;
 }
 
-.opasity {
-	background-color: black;
-	opacity: .7;
+.row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
 }
 
-.entry {
-	width: 80%;
-	height: 70%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	background-color: black;
+.column {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
 }
 
-.entry-header {
-	background: gray;
-	padding: 15px;
-	height: 10%;
+.flex-end-length {
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
 }
 
-.entry-body {
-	padding: 15px;
-	height: 90%;
+.flex-end-side {
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+.flex-center {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.flex-center-length {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.flex-while {
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 }
 
 .form {
@@ -263,48 +301,43 @@ Object
 	color: yellow;
 }
 
-.btn {
-	width: 110px;
-	height: 30px;
-	border-radius: 3px;
-}
-
-.btn-wrap {
-	width: 100%;
-	margin-top: auto;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-}
-
-.wrap-left {
-	-webkit-box-pack: end;
-	-webkit-justify-content: flex-end;
-	-ms-flex-pack: end;
-	justify-content: flex-end;
-}
-
-.wrap-center {
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-}
-
-.wrap-while {
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-}
-
 .radio-name {
 	color: white;
 }
 
 .input {
 	width: 100%;
+}
+
+/* ---------------------------------------------------------
+Object
+--------------------------------------------------------- */
+
+.main {
+	position: relative;
+}
+
+.entry {
+	width: 80%;
+	height: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: black;
+}
+
+.entry-header {
+	background: gray;
+	padding: 15px;
+	height: 10%;
+}
+
+.entry-body {
+	padding: 15px;
+	height: 90%;
 }
 
 * {
