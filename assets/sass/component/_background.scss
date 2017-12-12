@@ -18,6 +18,13 @@
 .opasity{
   background-color: black;
   opacity: .7;
+  animation-name: none;
+
+}
+
+.board{
+    background: url(../assets/images/board.jpg) no-repeat;
+    background-size: cover;
 }
 
 //layer

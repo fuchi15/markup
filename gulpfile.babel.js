@@ -19,7 +19,7 @@ import webpackConfig from './webpack.config.js'
  */
 
 const paths = {
-    rootDir: '/Applications/MAMP/htdocs/oic/markup/',
+    rootDir: 'C:/Users/anli/Documents/GitHub/markup',
     serverDir: 'localhost'
 };
 
