@@ -1,7 +1,7 @@
 .DS_Store
-.sass-cache
+.sass-cache/
 node_modules/
 cssmin/
 gulpfile.babel.js
 package-lock.json
-assets/css
+assets/css/
