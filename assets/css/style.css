@@ -324,7 +324,7 @@ Component
 }
 
 .form-item-title {
-	color: white;
+	color: gray;
 }
 
 .form-error {
@@ -337,6 +337,11 @@ Component
 
 .input {
 	width: 100%;
+	border: solid 1px;
+}
+
+.input-large {
+	height: 50px;
 }
 
 /* ---------------------------------------------------------
@@ -356,11 +361,9 @@ Object
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	background-color: black;
 }
 
 .entry-header {
-	background: gray;
 	padding: 15px;
 	height: 10%;
 }
@@ -455,5 +458,84 @@ Object
 	background: black;
 	border: 2px solid #C39300;
 	border-radius: 5px;
+}
+
+.mypage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 100px 0;
+	padding: 0 15px;
+}
+
+.profile {
+	overflow: hidden;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	padding: 15px;
+	background: white;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.profile-name {
+	width: 100%;
+	padding: 6px 0;
+	text-align: center;
+	background: gray;
+}
+
+.profile-left {
+	position: relative;
+	width: 50%;
+	height: 360px;
+}
+
+.profile-left img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 175%;
+	-webkit-transform: translate(-18%, 0);
+	-ms-transform: translate(-18%, 0);
+	transform: translate(-18%, 0);
+}
+
+.profile-right {
+	z-index: 2;
+	width: 50%;
+	padding: 21px 3px 0 9px;
+	background: gray;
+}
+
+.profile-content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 21px;
+	font-size: 12px;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.header-color {
+	background-color: gray;
+}
+
+.body-color {
+	background-color: black;
+}
+
+.entry-color {
+	background-color: white;
 }
 
