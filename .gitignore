@@ -1,5 +1,5 @@
 /_DS_Store
-.sass_cache
+.sass-cache
 node_modules/
 cssmin/
 gulpfile.babel.js

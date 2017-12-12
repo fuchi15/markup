@@ -3,48 +3,7 @@
   position: relative;
 }
 
-.background{
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.layer{
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-}
-
-.layer1{
-  z-index: 0;
-}
-
-.layer2{
-  z-index: 1;
-}
-
-.layer3{
-  z-index: 2;
-}
-
-.layer4{
-  z-index: 3;
-}
-.map{
-  background: url(../assets/images/back.jpeg) no-repeat center center;
-  background-size: cover;
-}
-.chara{
-  background: url(../assets/images/back.png) no-repeat center center;
-  background-size: 150%;
-  left: 40px;
-}
-.opasity{
-  background-color: black;
-  opacity: .7;
-}
-
+//entry
 .entry{
   width: 80%;
   height: 70%;
@@ -54,63 +13,14 @@
   transform: translate(-50%,-50%);
   background-color: black;
 }
-
 .entry-header{
   background: gray;
   padding: 15px;
   height: 10%;
 }
-
 .entry-body{
   padding: 15px;
   height: 90%;
-}
-
-.form{
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.form-item-title{
-  color: white;
-}
-
-.form-error{
-  color: yellow;
-}
-
-.btn{
-  width: 110px;
-  height: 30px;
-  border-radius: 3px;
-}
-
-.btn-wrap{
-  width: 100%;
-  margin-top: auto;
-  display: flex;
-
-}
-
-.wrap-left{
-    justify-content: flex-end;
-}
-
-.wrap-center{
-    justify-content: center;
-}
-
-.wrap-while{
-    justify-content: space-between;
-}
-
-.radio-name{
-    color:white;
-}
-
-.input{
-    width: 100%
 }
 
 * {

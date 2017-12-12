@@ -1,0 +1,40 @@
+.background{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+//img
+.map{
+  background: url(../assets/images/back.jpeg) no-repeat center center;
+  background-size: cover;
+}
+.chara{
+  background: url(../assets/images/back.png) no-repeat center center;
+  background-size: 150%;
+  left: 40px;
+}
+.opasity{
+  background-color: black;
+  opacity: .7;
+}
+
+//layer
+.layer{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+.layer1{
+  z-index: 0;
+}
+.layer2{
+  z-index: 1;
+}
+.layer3{
+  z-index: 2;
+}
+.layer4{
+  z-index: 3;
+}
