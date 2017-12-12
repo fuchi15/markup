@@ -12,15 +12,35 @@
 }
 
 .header-title{
+  margin: 0 auto;
+  width: 210px;
+  padding: 9px 0;
+  background-color: gray;
   text-align: center;
   font-weight: bold;
 }
 
 .header-inner{
-  margin: 0 auto;
-  width: 210px;
-  padding: 9px 0;
-  background-color: gray;
+  position: relative;
+  width: 100%;
 }
 
+.header-btn{
+  overflow: hidden;
+  position: absolute;
+  top: 26%;
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  &.top {
+    left: 0;
+    background: url('../assets/images/icon-top.png') no-repeat center center green;
+    background-size: 45px 45px;
+  }
+  &.menu {
+    right: 0;
+    background: url('../assets/images/icon-menu.png') no-repeat center center green;
+    background-size: 45px 45px;
+  }
+}
 
