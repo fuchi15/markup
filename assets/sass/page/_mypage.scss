@@ -1,9 +1,6 @@
 .mypage {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100%;
-  height: 100%;
   padding: 0 15px;
 }
 
@@ -76,4 +73,45 @@
   padding: 15px;
   background: white;
   flex-wrap: wrap;
+}
+
+.mypage-skill-course-list {
+  display: flex;
+}
+
+.mypage-skill-course-item {
+  margin-right: 15px;
+}
+
+.mypage-skill-list {
+
+}
+
+.mypage-skill-item {
+  display: flex;
+  margin-bottom: 15px;
+  background: gray;
+}
+
+.mypage-job {
+  position: relative;
+  margin: 30px 0 0;
+  padding: 15px;
+  background: white;
+}
+
+.mypage-job-course-list {
+  display: flex;
+}
+
+.mypage-job-course-item {
+  margin-right: 15px;
+}
+
+.mypage-job-item {
+  background: gray;
+}
+
+.mypage-job-link {
+  display: flex;
 }
