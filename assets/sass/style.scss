@@ -1,7 +1,9 @@
 @charset "utf-8";
+
 /* ---------------------------------------------------------
 Foundation
 --------------------------------------------------------- */
+
 @import "foundation/variable";
 @import "foundation/mixin";
 @import "foundation/webfont";
@@ -11,12 +13,15 @@ Foundation
 /* ---------------------------------------------------------
 Layout
 --------------------------------------------------------- */
+
 @import "layout/_header.scss";
 @import "layout/_footer.scss";
+@import "layout/_main.scss";
 
 /* ---------------------------------------------------------
 Component
 --------------------------------------------------------- */
+
 @import "component/_background.scss";
 @import "component/_button.scss";
 @import "component/_flexbox.scss";
@@ -26,6 +31,7 @@ Component
 /* ---------------------------------------------------------
 Object
 --------------------------------------------------------- */
+
 @import "page/_entry.scss";
 @import "page/_rpg-top.scss";
 @import "page/_guild-top.scss";
