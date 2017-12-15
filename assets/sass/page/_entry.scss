@@ -1,28 +1,25 @@
-//main
-.main{
-  position: relative;
+//entry
+.entry {
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
 }
 
-//entry
-.entry{
-  width: 80%;
-  height: 70%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  background-color: black;
+.entry-header {
+    background: gray;
+    padding: 15px;
+    height: 10%;
 }
-.entry-header{
-  background: gray;
-  padding: 15px;
-  height: 10%;
-}
-.entry-body{
-  padding: 15px;
-  height: 90%;
+
+.entry-body {
+    padding: 15px;
+    height: 90%;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
