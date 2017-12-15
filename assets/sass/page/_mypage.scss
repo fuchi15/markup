@@ -9,7 +9,6 @@
   overflow: hidden;
   display: flex;
   width: 100%;
-  margin: 100px 0 0;
   padding: 15px;
   background: white;
   flex-wrap: wrap;
@@ -67,12 +66,10 @@
 .mypage-skill {
   position: relative;
   overflow: hidden;
-  display: flex;
   width: 100%;
   margin: 30px 0 0;
   padding: 15px;
   background: white;
-  flex-wrap: wrap;
 }
 
 .mypage-skill-course-list {
