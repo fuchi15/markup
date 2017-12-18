@@ -19,11 +19,11 @@
   border: 1px solid black;
 }
 
-.party-management-holding-list {
+.party-management-list {
   margin: 30px 0 0;
 }
 
-.party-management-holding-item {
+.party-management-item {
   display: flex;
   width: 85%;
   margin: 0 auto;
@@ -56,4 +56,24 @@
 .party-dissolution {
   padding: 6px 15px;
   border: 1px solid black;
+}
+
+.party-management-join-item-left {
+  width: 63%;
+  padding: 15px;
+  border-right: 1px solid black;
+  p:first-child {
+    margin: 0 0 15px;
+  }
+}
+
+.party-management-join-item-right {
+  display: flex;
+  width: 37%;
+  justify-content: center;
+  align-items: center;
+}
+
+.party-exit-btn {
+  padding: 6px 15px;
 }
