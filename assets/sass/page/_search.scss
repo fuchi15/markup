@@ -1,9 +1,9 @@
-.user-search_search{
+.search{
     width: 90%;
     margin: 0 auto;
 }
 
-.user-search_search-warp{
+.search-warp{
     padding: 10px 20px;
     background-color: gray;
     border: solid 3px black;
@@ -15,29 +15,30 @@
     justify-content: space-between;
 }
 
-.user-search_list-item{
+.search_list-item{
     margin-top: 20px;
     background-color: gray;
     border: solid 3px black;
     border-radius: 4px;
 }
 
-.user-search_list-item-header{
+.search_list-item-header{
     padding: 10px 20px;
     background-color: white;
 }
 
-.user-search_list-item-body{
+.search_list-item-body{
     padding: 10px 20px;
 }
 
-.user-search_chara{
+.search_chara{
     background: url(../assets/images/back.png) no-repeat;
     background-size: 90%;
     background-position: 250% 20%;
 }
 
-a{
+
+.list-item-link{
     text-decoration: none;
     color: black;
 }
