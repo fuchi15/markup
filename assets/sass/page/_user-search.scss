@@ -1,0 +1,43 @@
+.user-search_search{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.user-search_search-warp{
+    padding: 10px 20px;
+    background-color: gray;
+    border: solid 3px black;
+    border-radius: 4px;
+}
+
+.search-title-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-search_list-item{
+    margin-top: 20px;
+    background-color: gray;
+    border: solid 3px black;
+    border-radius: 4px;
+}
+
+.user-search_list-item-header{
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.user-search_list-item-body{
+    padding: 10px 20px;
+}
+
+.user-search_chara{
+    background: url(../assets/images/back.png) no-repeat;
+    background-size: 90%;
+    background-position: 250% 20%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
